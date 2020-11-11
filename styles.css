@@ -1,0 +1,22 @@
+/* main background colour #E5E5E5 */
+/* footer background colour #2F303A */
+/* main <h> colour #212121 */
+/* main text colour #757575 */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.header-link {
+  color: #212121;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
