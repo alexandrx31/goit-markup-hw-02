@@ -32,10 +32,13 @@ h1 {
   color: #ffffff;
 }
 h2 {
+  color: var(--title-color);
 }
 h3 {
+  color: var(--title-color);
 }
 p {
+  color: var(--text-color);
 }
 
 a {
@@ -56,19 +59,23 @@ ul {
 /* header */
 .logo {
   color: #212121;
+  font-weight: 700;
 }
 .logo span {
   color: var(--accent-color);
+  font-weight: 700;
 }
 
 nav a {
   color: #212121;
+  font-weight: 500;
 }
 .contact-links a {
   color: #757575;
 }
 nav a:hover,
 nav a:focus,
+nav a.active,
 .contact-links a:hover,
 .contact-links a:focus {
   color: var(--accent-color);
@@ -78,6 +85,23 @@ nav a:focus,
 .hero {
   background-color: var(--accent-background);
   text-align: center;
+}
+
+/* quality */
+.quality h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.quality p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* footer */
