@@ -2,15 +2,37 @@
 /* footer background colour #2F303A */
 /* main <h> colour #212121 */
 /* main text colour #757575 */
+:root {
+  --main-background-colour: rgba(255, 255, 255, 1);
+  --primary-font-family: 'Roboto', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: var(--primary-font-family);
+}
+
+h1 {
+}
+h2 {
+}
+h3 {
+}
+p {
+}
+
 a {
   text-decoration: none;
 }
 ul {
   list-style: none;
+}
+
+button {
 }
 
 .header-link {
