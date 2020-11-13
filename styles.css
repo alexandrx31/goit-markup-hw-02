@@ -2,9 +2,11 @@
 /* footer background colour #2F303A */
 /* main <h> colour #212121 */
 /* main text colour #757575 */
+/* accent color #2196F3 */
 :root {
   --main-background-colour: rgba(255, 255, 255, 1);
   --primary-font-family: 'Roboto', sans-serif;
+  --accent-color: #2196f3;
 }
 
 * {
@@ -15,8 +17,14 @@
 body {
   font-family: var(--primary-font-family);
 }
-
+/* base styles */
 h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 h2 {
 }
@@ -32,13 +40,25 @@ ul {
   list-style: none;
 }
 
-button {
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
-
+/* header */
 .header-link {
   color: #212121;
 }
 .header-link:hover,
 .header-link:focus {
   color: #2196f3;
+}
+/* hero styles */
+
+.hero {
+  background-color: #2f303a;
+  text-align: center;
 }
