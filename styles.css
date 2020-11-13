@@ -4,9 +4,14 @@
 /* main text colour #757575 */
 /* accent color #2196F3 */
 :root {
-  --main-background-colour: rgba(255, 255, 255, 1);
+  --accent-background: #2f303a;
+  --secondary-background: #f5f4fa;
+
   --primary-font-family: 'Roboto', sans-serif;
+
   --accent-color: #2196f3;
+  --text-color: #757575;
+  --title-color: #212121;
 }
 
 * {
@@ -49,16 +54,33 @@ ul {
   background-color: var(--accent-color);
 }
 /* header */
-.header-link {
+.logo {
   color: #212121;
 }
-.header-link:hover,
-.header-link:focus {
-  color: #2196f3;
+.logo span {
+  color: var(--accent-color);
+}
+
+nav a {
+  color: #212121;
+}
+.contact-links a {
+  color: #757575;
+}
+nav a:hover,
+nav a:focus,
+.contact-links a:hover,
+.contact-links a:focus {
+  color: var(--accent-color);
 }
 /* hero styles */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--accent-background);
   text-align: center;
+}
+
+/* footer */
+footer {
+  background-color: var(--accent-background);
 }
