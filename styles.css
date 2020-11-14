@@ -33,7 +33,6 @@ h1 {
 }
 h2 {
   color: var(--title-color);
-  font-style: normal;
   font-weight: 800;
   font-size: 36px;
   line-height: 1.2;
@@ -42,9 +41,24 @@ h2 {
 }
 h3 {
   color: var(--title-color);
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 p {
   color: var(--text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 a {
@@ -52,6 +66,24 @@ a {
 }
 ul {
   list-style: none;
+}
+
+/* button */
+
+button {
+  background-color: #f5f4fa;
+  color: var(--title-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+button:hover,
+button:focus,
+button.active {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
 
 .button {
@@ -62,10 +94,12 @@ ul {
   color: #ffffff;
   background-color: var(--accent-color);
 }
+
 /* header */
 .logo {
   color: #212121;
   font-weight: 700;
+  font-family: 'Raleway', sans-serif;
 }
 .logo span {
   color: var(--accent-color);
@@ -94,37 +128,22 @@ nav a.active,
 }
 
 /* quality */
-.quality h3 {
-  font-style: normal;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.quality p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-}
 
 /* team */
-
-.team h3 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+.team {
+  text-align: center;
 }
+
 .team p {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+}
+
+/* works */
+
+.works p {
+  font-size: 16px;
+  line-height: 30px;
 }
 
 /* footer */
@@ -137,7 +156,6 @@ footer .logo {
   font-weight: 700;
 }
 footer span {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -145,7 +163,6 @@ footer span {
   color: #ffffff;
 }
 footer a {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
